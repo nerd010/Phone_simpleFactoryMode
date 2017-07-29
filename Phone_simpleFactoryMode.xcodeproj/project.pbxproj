@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562FA3151CD745F7005B690C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3141CD745F7005B690C /* main.m */; };
+		562FA3181CD745F7005B690C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3171CD745F7005B690C /* AppDelegate.m */; };
+		562FA31B1CD745F7005B690C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA31A1CD745F7005B690C /* ViewController.m */; };
+		562FA31E1CD745F7005B690C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562FA31C1CD745F7005B690C /* Main.storyboard */; };
+		562FA3201CD745F7005B690C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562FA31F1CD745F7005B690C /* Assets.xcassets */; };
+		562FA3231CD745F7005B690C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562FA3211CD745F7005B690C /* LaunchScreen.storyboard */; };
+		562FA32E1CD745F7005B690C /* Phone_simpleFactoryModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA32D1CD745F7005B690C /* Phone_simpleFactoryModeTests.m */; };
+		562FA3391CD745F7005B690C /* Phone_simpleFactoryModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3381CD745F7005B690C /* Phone_simpleFactoryModeUITests.m */; };
+		562FA3481CD74626005B690C /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3471CD74626005B690C /* Phone.m */; };
+		562FA34B1CD74676005B690C /* XiaoMiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA34A1CD74676005B690C /* XiaoMiPhone.m */; };
+		562FA34E1CD746B2005B690C /* LeShiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA34D1CD746B2005B690C /* LeShiPhone.m */; };
+		562FA3511CD746EE005B690C /* PhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3501CD746EE005B690C /* PhoneFactory.m */; };
+		562FA3571CD7479C005B690C /* LeShiPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3561CD7479C005B690C /* LeShiPhoneFactory.m */; };
+		562FA35A1CD747F7005B690C /* XiaoMiPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FA3591CD747F7005B690C /* XiaoMiPhoneFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562FA32A1CD745F7005B690C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562FA3081CD745F7005B690C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562FA30F1CD745F7005B690C;
+			remoteInfo = Phone_simpleFactoryMode;
+		};
+		562FA3351CD745F7005B690C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562FA3081CD745F7005B690C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562FA30F1CD745F7005B690C;
+			remoteInfo = Phone_simpleFactoryMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562FA3101CD745F7005B690C /* Phone_simpleFactoryMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phone_simpleFactoryMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562FA3141CD745F7005B690C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		562FA3161CD745F7005B690C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		562FA3171CD745F7005B690C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		562FA3191CD745F7005B690C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		562FA31A1CD745F7005B690C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		562FA31D1CD745F7005B690C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562FA31F1CD745F7005B690C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562FA3221CD745F7005B690C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		562FA3241CD745F7005B690C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562FA3291CD745F7005B690C /* Phone_simpleFactoryModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Phone_simpleFactoryModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562FA32D1CD745F7005B690C /* Phone_simpleFactoryModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone_simpleFactoryModeTests.m; sourceTree = "<group>"; };
+		562FA32F1CD745F7005B690C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562FA3341CD745F7005B690C /* Phone_simpleFactoryModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Phone_simpleFactoryModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562FA3381CD745F7005B690C /* Phone_simpleFactoryModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone_simpleFactoryModeUITests.m; sourceTree = "<group>"; };
+		562FA33A1CD745F7005B690C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562FA3461CD74626005B690C /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		562FA3471CD74626005B690C /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		562FA3491CD74676005B690C /* XiaoMiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiPhone.h; sourceTree = "<group>"; };
+		562FA34A1CD74676005B690C /* XiaoMiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMiPhone.m; sourceTree = "<group>"; };
+		562FA34C1CD746B2005B690C /* LeShiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeShiPhone.h; sourceTree = "<group>"; };
+		562FA34D1CD746B2005B690C /* LeShiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeShiPhone.m; sourceTree = "<group>"; };
+		562FA34F1CD746EE005B690C /* PhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneFactory.h; sourceTree = "<group>"; };
+		562FA3501CD746EE005B690C /* PhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneFactory.m; sourceTree = "<group>"; };
+		562FA3551CD7479C005B690C /* LeShiPhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeShiPhoneFactory.h; sourceTree = "<group>"; };
+		562FA3561CD7479C005B690C /* LeShiPhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeShiPhoneFactory.m; sourceTree = "<group>"; };
+		562FA3581CD747F7005B690C /* XiaoMiPhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiPhoneFactory.h; sourceTree = "<group>"; };
+		562FA3591CD747F7005B690C /* XiaoMiPhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMiPhoneFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562FA30D1CD745F7005B690C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562FA3261CD745F7005B690C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562FA3311CD745F7005B690C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562FA3071CD745F7005B690C = {
+			isa = PBXGroup;
+			children = (
+				562FA3121CD745F7005B690C /* Phone_simpleFactoryMode */,
+				562FA32C1CD745F7005B690C /* Phone_simpleFactoryModeTests */,
+				562FA3371CD745F7005B690C /* Phone_simpleFactoryModeUITests */,
+				562FA3111CD745F7005B690C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562FA3111CD745F7005B690C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562FA3101CD745F7005B690C /* Phone_simpleFactoryMode.app */,
+				562FA3291CD745F7005B690C /* Phone_simpleFactoryModeTests.xctest */,
+				562FA3341CD745F7005B690C /* Phone_simpleFactoryModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562FA3121CD745F7005B690C /* Phone_simpleFactoryMode */ = {
+			isa = PBXGroup;
+			children = (
+				562FA3161CD745F7005B690C /* AppDelegate.h */,
+				562FA3171CD745F7005B690C /* AppDelegate.m */,
+				562FA3191CD745F7005B690C /* ViewController.h */,
+				562FA31A1CD745F7005B690C /* ViewController.m */,
+				562FA3461CD74626005B690C /* Phone.h */,
+				562FA3471CD74626005B690C /* Phone.m */,
+				562FA3491CD74676005B690C /* XiaoMiPhone.h */,
+				562FA34A1CD74676005B690C /* XiaoMiPhone.m */,
+				562FA34C1CD746B2005B690C /* LeShiPhone.h */,
+				562FA34D1CD746B2005B690C /* LeShiPhone.m */,
+				562FA34F1CD746EE005B690C /* PhoneFactory.h */,
+				562FA3501CD746EE005B690C /* PhoneFactory.m */,
+				562FA3551CD7479C005B690C /* LeShiPhoneFactory.h */,
+				562FA3561CD7479C005B690C /* LeShiPhoneFactory.m */,
+				562FA3581CD747F7005B690C /* XiaoMiPhoneFactory.h */,
+				562FA3591CD747F7005B690C /* XiaoMiPhoneFactory.m */,
+				562FA31C1CD745F7005B690C /* Main.storyboard */,
+				562FA31F1CD745F7005B690C /* Assets.xcassets */,
+				562FA3211CD745F7005B690C /* LaunchScreen.storyboard */,
+				562FA3241CD745F7005B690C /* Info.plist */,
+				562FA3131CD745F7005B690C /* Supporting Files */,
+			);
+			path = Phone_simpleFactoryMode;
+			sourceTree = "<group>";
+		};
+		562FA3131CD745F7005B690C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				562FA3141CD745F7005B690C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		562FA32C1CD745F7005B690C /* Phone_simpleFactoryModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				562FA32D1CD745F7005B690C /* Phone_simpleFactoryModeTests.m */,
+				562FA32F1CD745F7005B690C /* Info.plist */,
+			);
+			path = Phone_simpleFactoryModeTests;
+			sourceTree = "<group>";
+		};
+		562FA3371CD745F7005B690C /* Phone_simpleFactoryModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				562FA3381CD745F7005B690C /* Phone_simpleFactoryModeUITests.m */,
+				562FA33A1CD745F7005B690C /* Info.plist */,
+			);
+			path = Phone_simpleFactoryModeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562FA30F1CD745F7005B690C /* Phone_simpleFactoryMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562FA33D1CD745F7005B690C /* Build configuration list for PBXNativeTarget "Phone_simpleFactoryMode" */;
+			buildPhases = (
+				562FA30C1CD745F7005B690C /* Sources */,
+				562FA30D1CD745F7005B690C /* Frameworks */,
+				562FA30E1CD745F7005B690C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phone_simpleFactoryMode;
+			productName = Phone_simpleFactoryMode;
+			productReference = 562FA3101CD745F7005B690C /* Phone_simpleFactoryMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562FA3281CD745F7005B690C /* Phone_simpleFactoryModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562FA3401CD745F7005B690C /* Build configuration list for PBXNativeTarget "Phone_simpleFactoryModeTests" */;
+			buildPhases = (
+				562FA3251CD745F7005B690C /* Sources */,
+				562FA3261CD745F7005B690C /* Frameworks */,
+				562FA3271CD745F7005B690C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562FA32B1CD745F7005B690C /* PBXTargetDependency */,
+			);
+			name = Phone_simpleFactoryModeTests;
+			productName = Phone_simpleFactoryModeTests;
+			productReference = 562FA3291CD745F7005B690C /* Phone_simpleFactoryModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		562FA3331CD745F7005B690C /* Phone_simpleFactoryModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562FA3431CD745F7005B690C /* Build configuration list for PBXNativeTarget "Phone_simpleFactoryModeUITests" */;
+			buildPhases = (
+				562FA3301CD745F7005B690C /* Sources */,
+				562FA3311CD745F7005B690C /* Frameworks */,
+				562FA3321CD745F7005B690C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562FA3361CD745F7005B690C /* PBXTargetDependency */,
+			);
+			name = Phone_simpleFactoryModeUITests;
+			productName = Phone_simpleFactoryModeUITests;
+			productReference = 562FA3341CD745F7005B690C /* Phone_simpleFactoryModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562FA3081CD745F7005B690C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHW;
+				TargetAttributes = {
+					562FA30F1CD745F7005B690C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AAHU74A457;
+					};
+					562FA3281CD745F7005B690C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AAHU74A457;
+						TestTargetID = 562FA30F1CD745F7005B690C;
+					};
+					562FA3331CD745F7005B690C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AAHU74A457;
+						TestTargetID = 562FA30F1CD745F7005B690C;
+					};
+				};
+			};
+			buildConfigurationList = 562FA30B1CD745F7005B690C /* Build configuration list for PBXProject "Phone_simpleFactoryMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562FA3071CD745F7005B690C;
+			productRefGroup = 562FA3111CD745F7005B690C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562FA30F1CD745F7005B690C /* Phone_simpleFactoryMode */,
+				562FA3281CD745F7005B690C /* Phone_simpleFactoryModeTests */,
+				562FA3331CD745F7005B690C /* Phone_simpleFactoryModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562FA30E1CD745F7005B690C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562FA3231CD745F7005B690C /* LaunchScreen.storyboard in Resources */,
+				562FA3201CD745F7005B690C /* Assets.xcassets in Resources */,
+				562FA31E1CD745F7005B690C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562FA3271CD745F7005B690C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562FA3321CD745F7005B690C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562FA30C1CD745F7005B690C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562FA3481CD74626005B690C /* Phone.m in Sources */,
+				562FA35A1CD747F7005B690C /* XiaoMiPhoneFactory.m in Sources */,
+				562FA31B1CD745F7005B690C /* ViewController.m in Sources */,
+				562FA34E1CD746B2005B690C /* LeShiPhone.m in Sources */,
+				562FA3181CD745F7005B690C /* AppDelegate.m in Sources */,
+				562FA34B1CD74676005B690C /* XiaoMiPhone.m in Sources */,
+				562FA3571CD7479C005B690C /* LeShiPhoneFactory.m in Sources */,
+				562FA3511CD746EE005B690C /* PhoneFactory.m in Sources */,
+				562FA3151CD745F7005B690C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562FA3251CD745F7005B690C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562FA32E1CD745F7005B690C /* Phone_simpleFactoryModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562FA3301CD745F7005B690C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562FA3391CD745F7005B690C /* Phone_simpleFactoryModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562FA32B1CD745F7005B690C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562FA30F1CD745F7005B690C /* Phone_simpleFactoryMode */;
+			targetProxy = 562FA32A1CD745F7005B690C /* PBXContainerItemProxy */;
+		};
+		562FA3361CD745F7005B690C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562FA30F1CD745F7005B690C /* Phone_simpleFactoryMode */;
+			targetProxy = 562FA3351CD745F7005B690C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562FA31C1CD745F7005B690C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562FA31D1CD745F7005B690C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		562FA3211CD745F7005B690C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562FA3221CD745F7005B690C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562FA33B1CD745F7005B690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		562FA33C1CD745F7005B690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562FA33E1CD745F7005B690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Phone_simpleFactoryMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CHW.Phone-simpleFactoryMode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		562FA33F1CD745F7005B690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Phone_simpleFactoryMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CHW.Phone-simpleFactoryMode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		562FA3411CD745F7005B690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Phone_simpleFactoryModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CHW.Phone-simpleFactoryModeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone_simpleFactoryMode.app/Phone_simpleFactoryMode";
+			};
+			name = Debug;
+		};
+		562FA3421CD745F7005B690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Phone_simpleFactoryModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CHW.Phone-simpleFactoryModeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone_simpleFactoryMode.app/Phone_simpleFactoryMode";
+			};
+			name = Release;
+		};
+		562FA3441CD745F7005B690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Phone_simpleFactoryModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CHW.Phone-simpleFactoryModeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Phone_simpleFactoryMode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		562FA3451CD745F7005B690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Phone_simpleFactoryModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CHW.Phone-simpleFactoryModeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Phone_simpleFactoryMode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562FA30B1CD745F7005B690C /* Build configuration list for PBXProject "Phone_simpleFactoryMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562FA33B1CD745F7005B690C /* Debug */,
+				562FA33C1CD745F7005B690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562FA33D1CD745F7005B690C /* Build configuration list for PBXNativeTarget "Phone_simpleFactoryMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562FA33E1CD745F7005B690C /* Debug */,
+				562FA33F1CD745F7005B690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		562FA3401CD745F7005B690C /* Build configuration list for PBXNativeTarget "Phone_simpleFactoryModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562FA3411CD745F7005B690C /* Debug */,
+				562FA3421CD745F7005B690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		562FA3431CD745F7005B690C /* Build configuration list for PBXNativeTarget "Phone_simpleFactoryModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562FA3441CD745F7005B690C /* Debug */,
+				562FA3451CD745F7005B690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562FA3081CD745F7005B690C /* Project object */;
+}
